@@ -23,15 +23,13 @@ Este projeto implementa uma solução para análise e monitoramento da evoluçã
 
 
 ## 🏗 Arquitetura da Solução
-plaintext
+
 .
-├── README.md                # Este documento
-├── docs/                    # Evidências e gráficos OLAP, Vídeo de Apresentação do Banco de Dados, Imagens do Banco de dados
-├── data/                    # Base de dados original (Excel/CSV), Arquivo 1º Entrega corrigido (PDF)
-├── ddl/                     # Scripts de criação das tabelas (DDL)
-├── dml/                     # Scripts de carga de dados (DML)
-
-
+- **README.md**                # Este documento
+- **data/**                    # Base de dados original (Excel/CSV), Arquivo 1º Entrega corrigido (PDF)
+- **ddl/**                     # Scripts de criação das tabelas (DDL)
+- **dml/**                     # Scripts de carga de dados (DML)
+- **olap/**                    # Consultas OLAP em SQL
 
 ---
 
