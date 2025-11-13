@@ -1,6 +1,8 @@
 
 CREATE DATABASE covid19_dw;
-
+go
+USE covid19_dw
+GO
 
 CREATE TABLE dim_estado (
     id_estado  PRIMARY KEY,
@@ -28,3 +30,4 @@ CREATE TABLE fato_covid (
     vacinados_acumulados INT NOT NULL
 
 );
+
