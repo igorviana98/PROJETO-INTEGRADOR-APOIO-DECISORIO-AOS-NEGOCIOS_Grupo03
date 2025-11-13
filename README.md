@@ -21,18 +21,16 @@ Este projeto implementa uma solução para análise e monitoramento da evoluçã
 
 ---
 
+
 ## 🏗 Arquitetura da Solução
-/etl
-  ├── extract.py        # Extração dos dados (Brasil.io, Ministério da Saúde)
-  ├── transform.py      # Limpeza, padronização e cálculo de métricas
-  ├── load.py           # Carga no PostgreSQL
+plaintext
+.
+├── README.md                # Este documento
+├── docs/                    # Evidências e gráficos OLAP, Vídeo de Apresentação do Banco de Dados, Imagens do Banco de dados
+├── data/                    # Base de dados original (Excel/CSV), Arquivo 1º Entrega corrigido (PDF)
+├── ddl/                     # Scripts de criação das tabelas (DDL)
+├── dml/                     # Scripts de carga de dados (DML)
 
-/sql
-  ├── ddl.sql           # Criação das tabelas (modelo dimensional)
-  ├── dml.sql           # Inserção dos dados (dimensões e fatos)
-
-/olap
-  ├── consultas_olap.sql # Consultas analíticas para operações OLAP
 
 
 ---
