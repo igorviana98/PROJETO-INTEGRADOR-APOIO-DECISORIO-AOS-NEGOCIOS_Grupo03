@@ -9,9 +9,9 @@ INSERT INTO dim_estado (nome_estado, sigla) VALUES
 ('Rio Grande do Sul', 'RS');
 
 INSERT INTO dim_tempo (mes, ano) VALUES
-('Jan', 2024), ('Feb', 2024), ('Mar', 2024), ('Apr', 2024),
-('May', 2024), ('Jun', 2024), ('Jul', 2024), ('Aug', 2024),
-('Sep', 2024), ('Oct', 2024), ('Nov', 2024), ('Dec', 2024);
+('Jan', 2020), ('Feb', 2020), ('Mar', 2020), ('Apr', 2020),
+('May', 2020), ('Jun', 2020), ('Jul', 2020), ('Aug', 2020),
+('Sep', 2020), ('Oct', 2020), ('Nov', 2020), ('Dec', 2020);
 
 INSERT INTO fato_covid (id_estado, id_tempo, novos_casos, casos_acumulados, novos_obitos, obitos_acumulados, novos_vacinados, vacinados_acumulados) VALUES
 (1, 1, 12270, 12270, 485, 485, 10860, 10860),
@@ -74,3 +74,4 @@ INSERT INTO fato_covid (id_estado, id_tempo, novos_casos, casos_acumulados, novo
 (5, 10, 14914, 122002, 292, 3304, 32299, 281357),
 (5, 11, 15817, 137819, 219, 3523, 12693, 294050),
 (5, 12, 18083, 155902, 77, 3600, 13627, 307677);
+
