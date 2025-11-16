@@ -1,6 +1,3 @@
-use covid19_dw
-go
-
 INSERT INTO dim_estado (nome_estado, sigla) VALUES
 ('São Paulo', 'SP'),
 ('Rio de Janeiro', 'RJ'),
