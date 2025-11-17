@@ -1,6 +1,4 @@
-use covid19_dw2
-go
--- 1. Total de casos e óbitos por Estado
+-- 1. Total de casos e Ã“bitos por Estado
 SELECT e.sigla AS Estado,
        SUM(f.novos_casos) AS Total_Casos,
        SUM(f.novos_obitos) AS Total_Obitos
